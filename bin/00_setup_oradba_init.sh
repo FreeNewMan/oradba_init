@@ -86,7 +86,7 @@ ORATAB=${ORATAB:-"/etc/oratab"}
 
 # - Environment Variables ---------------------------------------------------
 # define the oradba url and package name
-export GITHUB_URL="https://codeload.github.com/oehrlis/oradba_init/zip/master"
+export GITHUB_URL="https://codeload.github.com/FreeNewMan/oradba_init/zip/master"
 export ORADBA_PKG="oradba_init.zip"
 export ORADBA_DEBUG=${ORADBA_DEBUG:-"FALSE"}    # enable debug mode
 
