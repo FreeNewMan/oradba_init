@@ -41,7 +41,7 @@ export CHECK_SCRIPT=${CHECK_SCRIPT:-"54_check_database.sh"}
 export ORACLE_SID=${ORACLE_SID:-TDB183C}                    # Default for ORACLE SID
 export ORADBA_TEMPLATE_PREFIX=${ORADBA_TEMPLATE_PREFIX:-""}
 export ORACLE_PDB=${ORACLE_PDB:-PDB1}                       # Default for ORACLE PDB
-export ORACLE_CHARACTERSET=${ORACLE_CHARACTERSET:-AL32UTF8} # Default for ORACLE CHARACTERSET
+export ORACLE_CHARACTERSET=${ORACLE_CHARACTERSET:-CL8MSWIN1251} # Default for ORACLE CHARACTERSET
 export CONTAINER=${CONTAINER:-"false"}                      # Check whether CONTAINER is passed on
 
 # Oracle Software, Patchs and common environment variables
