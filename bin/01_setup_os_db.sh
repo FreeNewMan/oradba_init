@@ -173,6 +173,7 @@ for i in oracdb orapdb orasec; do
 done
 
 # - EOF add PDB OS user -----------------------------------------------------
+chown -vR oracle:oinstall ${ORACLE_DATA}
 
 # create a bunch of other directories
 mkdir -vp ${ORACLE_BASE}/archive
