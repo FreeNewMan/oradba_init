@@ -29,7 +29,7 @@ export ORADBA_RSP="${ORADBA_BASE}/rsp"          # oradba init response file fold
 
 # define Oracle specific variables
 export ORACLE_ROOT=${ORACLE_ROOT:-"/u00"}       # root folder for ORACLE_BASE and binaries
-export ORACLE_DATA=${ORACLE_DATA:-"/data"}       # Oracle data folder eg volume for docker
+export ORACLE_DATA=${ORACLE_DATA:-"/u01"}       # Oracle data folder eg volume for docker
 export ORACLE_ARCH=${ORACLE_ARCH:-"/u02"}       # Oracle arch folder eg volume for docker
 export ORACLE_BASE=${ORACLE_BASE:-"${ORACLE_ROOT}/app/oracle"}
 export ORACLE_INVENTORY=${ORACLE_INVENTORY:-"${ORACLE_ROOT}/app/oraInventory"}
